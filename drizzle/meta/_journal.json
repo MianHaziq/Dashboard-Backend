@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1759477916667,
+      "tag": "0000_fantastic_loki",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1759496224272,
+      "tag": "0001_gifted_squadron_sinister",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1759502262922,
+      "tag": "0002_brave_jackpot",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1759503816364,
+      "tag": "0003_broad_chat",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1759708392200,
+      "tag": "0004_tricky_thena",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "start": "nodemon index.js",
+  "db:generate": "drizzle-kit generate --config ./config/drizzle.config.js",
+  "db:push": "drizzle-kit push --config ./config/drizzle.config.js",
+  "db:migrate": "drizzle-kit migrate --config ./config/drizzle.config.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.6",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3",
+    "postgres": "^3.4.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.5"
+  }
+}
